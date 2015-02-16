@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         
         get<-function()                 #get the value of matrix object
                 
-                setmatrix<-function(solve) m<<- solve #set value of inverse matrix
+        setmatrix<-function(solve) m<<- solve #set value of inverse matrix
         getmatrix<-function() m         #get the value of inverse matrix
         
         list(set=set, get=get,          #pairlist, set tags
