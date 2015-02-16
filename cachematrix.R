@@ -1,6 +1,4 @@
-## Week 3, Programming Assignment 2, Peer Review, Due Feb 22, 2015
-
-## The two functions below creates and caches the inverse of a matrix.
+## The two functions below create and cache the inverse of a matrix.
 ## Function makeCacheMatrix first creates the matrix object and sets the
 ## parameters to build the inverse matrix.
 ## Function cacheSolve checks if the inverse matrix has been created and
@@ -29,8 +27,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 #cacheSolve Function calculates inverse of matrix created with makeCacheMatrix
-#Checks for cached inverse matrix first, creates inverse matrix and
-#sets to cache if doesn't exist
+#If cached inverse matrix exists, it gets retrieved; if cached inverse martix
+#does not exist, it creates inverse matrix and sets to cache
 
 cacheSolve <- function(x, ...) {
         m<-x$getmatrix()        #get inverse matrix object from makeCacheMatrix function
